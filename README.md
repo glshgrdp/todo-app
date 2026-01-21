@@ -1,16 +1,22 @@
-# React + Vite
+ToDo App - React Project
+Bu proje, React kütüphanesi kullanılarak geliştirilmiş, fonksiyonel ve kullanıcı dostu bir görev yönetim (ToDo) uygulamasıdır. TodoMVC standartları ve tasarımları temel alınarak hazırlanmıştır.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Özellikler
+Yeni Görev Ekleme: Giriş alanını kullanarak listeye anında yeni görevler eklenebilir.
 
-Currently, two official plugins are available:
+Görev Tamamlama: Görevlerin yanındaki onay kutuları ile tamamlandı/devam ediyor durumu değiştirilebilir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Filtreleme: Görevler "All" (Hepsi), "Active" (Aktif) ve "Completed" (Tamamlananlar) olarak filtrelenebilir.
 
-## React Compiler
+Toplu İşlem: Tek bir hamle ile tüm görevler tamamlandı olarak işaretlenebilir.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Temizleme: Tamamlanmış olan tüm görevler "Clear Completed" butonu ile listeden kaldırılabilir.
 
-## Expanding the ESLint configuration
+Sayaç: Listenin altında aktif olarak bekleyen görev sayısı dinamik olarak takip edilebilir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Kullanılan Teknolojiler
+React: Bileşen tabanlı yapı ve State yönetimi için.
+
+Vite: Hızlı geliştirme ortamı ve yapılandırma için.
+
+CSS: Projenin görsel tasarımı ve responsive yapısı için.
